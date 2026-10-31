@@ -1,0 +1,32 @@
+/* ==========================================================================
+   AKSHAY ACHARYA — BASIC CLEAN PORTFOLIO STYLES
+   ========================================================================== */
+
+:root {
+  --bg-primary: #0c0e14;
+  --bg-secondary: #141824;
+  --accent-amber: #f59e0b;
+  --text-main: #f3f4f6;
+  --text-muted: #9ca3af;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: #23293a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-amber);
+}
+
+/* Focus styles */
+input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--accent-amber);
+}
